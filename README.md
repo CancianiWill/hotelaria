@@ -1,2 +1,2 @@
 # hotelaria
-Um site de reservas e pesquisa de hoteis, feito em bootstrap 
+Um site de reservas e pesquisa de hoteis, feito com bootstrap 
