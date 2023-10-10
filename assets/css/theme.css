@@ -3,6 +3,11 @@
 @import './buttons.css';
 @import './background.css';
 @import './inputs.css';
+@import './position.css';
+@import './colors.css';
+@import './carousel.css';
+@import './avaliacoes.css';
+@import './utils.css';
 :root {
     --bg-orange:         #f46a05;
     --bg-orange-hover:   #d85f08;
