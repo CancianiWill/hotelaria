@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +12,10 @@
     <link rel="stylesheet" href="style.css">
     <title>Hotelaria</title>
 </head>
+
 <body>
-    
-      <!-- navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container pt-1 pd-1">
             <a href="./index.html" class="navbar-brand fw-bold">Hotelaria</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -32,105 +33,47 @@
                     </li>
                     <!-- Botão aparece quando tela menor -->
                     <li class="nav-item d-block d-md-none d-lg-none pt-2 pb-2">
-                        <a href="./login.html" type="button" class="btn btn-orange w-100 rounded-0">Login</a>
+                        <a href="#" type="button" class="btn btn-orange w-100 rounded-0">Login</a>
                     </li>
                     <!-- End Botão tela menor -->
                     <li class="nav-item d-none d-md-block d-lg-block">
-                        <a href="./login.html" type="button" class="btn btn-orange rounded-0 ps-lg-5 pe-lg-5">Login</a>
+                        <a href="#" type="button" class="btn btn-orange rounded-0 ps-lg-5 pe-lg-5">Login</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- End Navbar -->
-    <main class="w-100 pb-5 pt-lg-2 pb-lg-5 min-vh-100">
-        <div class="container pt-5 pb-2 pt-lg-5 pb-lg-0">
-            <div class="w-100 title mb-5 mb-md-5 mb-lg-5 pt-lg-4">
-                <h1 class="fs-4 text-center text-lg-center mb-2 fw-bold">Pré-reserva</h1>
-                <div class="line-orange m-auto"></div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md col-lg-3 mb-3">
-                    <div class="card border-0 pt-lg-4">
-                        <img src="./assets/img/hoteis/hotel-1.jpeg" class="card-img-top rounded-0" alt="">
-                        <div class="card-body pe-0 ps-0">
-                            <h5 class="card-title mb-1">Hotel Califórnia</h5>
-                            <p class="card-text text-muted mb-1">Porto Seguro/BA</p>
-                            <div class="stars mb-3">
-                                <span class="star">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                </span>
-                            </div>
-                            <div class="alert alert-danger rounded-0 text-center" role="alert">
-                                Indisponível!
-                            </div>
-                        </div>
+    <!-- End Navbar-->
+    
+    <main class="w-100 min-vh-100 d-flex justify-content-center align-items-center">
+        <div class="container d-flex justify-content-center">
+            <div class="card card-login-conteiner p-lg-5 border-0">
+                <form>
+                    <div class="w-100 pb-2 pb-4">
+                        <h3 class="fs-2 mb-0 fw-bold mb-1">Hotelaria</h3>
+                        <span class="text-muted">Faça seu login abaixo para prosseguir.</span>
                     </div>
-                </div>
-                <div class="col-12 col-md col-lg-9">
-                    <div class="card border-0">
-                        <div class="card-body">
-                            <form class="row g-3">
-                                <div class="col-md-6">
-                                    <label for="nome" class="form-label">Nome completo:</label>
-                                    <input type="text" class="form-control rounded-0" id="nome" disabled>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="email" class="form-label">E-mail:</label>
-                                    <input type="email" class="form-control rounded-0" id="email" disabled>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="documento" class="form-label">CPF/Passporte:</label>
-                                    <input type="text" class="form-control rounded-0" id="documento" disabled>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="nascimento" class="form-label">Data de nascimento:</label>
-                                    <input type="date" class="form-control rounded-0" id="nascimento" disabled>
-                                </div>
-                                <div class="col-md-12">
-                                    <label for="telefone" class="form-label">Telefone:</label>
-                                    <input type="tel" class="form-control rounded-0" id="telefone" disabled>
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="pais" class="form-label">País:</label>
-                                    <input type="text" class="form-control rounded-0" id="pais" disabled> 
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="estado" class="form-label">Estado:</label>
-                                    <input type="text" class="form-control rounded-0" id="estado" disabled>
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="cidade" class="form-label">Cidade:</label>
-                                    <input type="text" class="form-control rounded-0" id="cidade" disabled>
-                                </div>
-                                <div class="col-md-12">
-                                    <label for="rua" class="form-label">Rua:</label>
-                                    <input type="text" class="form-control rounded-0" id="rua" disabled>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="bairro" class="form-label">Bairro:</label>
-                                    <input type="text" class="form-control rounded-0" id="bairro" disabled>
-                                </div>
-                                
-                                <div class="col-md-6">
-                                    <label for="cep" class="form-label">CEP:</label>
-                                    <input type="text" class="form-control rounded-0" id="cep" disabled>
-                                </div>
-                                <div class="w-100 d-flex justify-content-end d-lg-flex justify-content-lg-end pt-3">
-                                    <button type="button" class="btn btn-orange pe-4 ps-4 rounded-0" disabled>Próximo</button>
-                                </div>
-                            </form>
-                        </div>
+                    <div class="mb-4">
+                        <label for="email">E-mail:</label>
+                        <input type="email" class="form-control rounded-0" id="email" required>
                     </div>
-                </div>
+                    <div class="mb-4">
+                        <label for="password">Senha:</label>
+                        <input type="password" class="form-control rounded-0" id="password" required>
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input type="checkbox" class="form-check-input" value="lembrar" id="lembrar">
+                        <label for="lembrar" class="form-check-label">Lembre-me</label>
+                    </div>
+                    <div class="w-100 pt-0 pb-2">
+                        <button type="submit" class="btn btn-login pe-5 ps-5 rounded-0 w-100">Login</button>
+                    </div>
+                </form>
             </div>
         </div>
     </main>
-    
+
+    <!-- Rodape -->
     <footer class="w-100 bg-light">
         <div class="container pt-5 pt-lg-5 pb-lg-3">
             <div class="row">
@@ -187,6 +130,8 @@
             </p>
         </div>
     </footer>
+    <!-- End Rodape -->
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -197,4 +142,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"></script>
+
 </html>
